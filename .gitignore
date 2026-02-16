@@ -1,0 +1,6 @@
+.DS_Store
+.env
+debug/
+target/
+Cargo.lock
+**/*.rs.bk
