@@ -22,7 +22,7 @@ async fn main() -> Result<()> {
 
 	let output_addr: SocketAddr = args[2].parse().with_context(|| format!("Failed to parse output address: {}", args[2]))?;
 
-	info!("Starting SRT hub server");
+	info!("Starting srt-relay server");
 	info!("Input socket: {}", input_addr);
 	info!("Output socket: {}", output_addr);
 
